@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body {
+    @apply font-body max-w-[1150px] mx-auto;
+}
+
+.contact-info-container {
+    @apply bg-[#d0d0e1] p-[2px];
+}
+
+.company-left-border {
+    @apply border-l-[3px] border-stone-400 pl-2 rounded-sm;
+}
+
+.current-designation-top {
+    @apply opacity-70 -mt-1 tracking-wide;
+}
+
+.designation {
+    @apply text-base font-semibold opacity-90 tracking-wide;
+}
+
+.interest {
+    @apply tracking-wide border-[1px] rounded-md p-1 border-[#28a745];
+}
+
+.name {
+    @apply text-[40px] font-sans tracking-tight text-[#00cca3];
+}
+
+.section-title {
+    @apply uppercase text-[28px] font-semibold;
+}
+
+.skill {
+    @apply tracking-wide border-[1px] rounded-md p-1 border-slate-500 bg-slate-200;
+}
+
+.tech-stack {
+    @apply font-bold opacity-80;
+}
+
+.work-descriptions {
+    @apply list-[circle] w-[85%] space-y-2 pl-6;
+}
